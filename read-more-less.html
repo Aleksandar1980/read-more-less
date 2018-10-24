@@ -1,0 +1,88 @@
+<!Doctype html>
+
+<html>
+ <head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+  <body>
+       <script>
+	      //this function show/hide div
+    function toggle_div_fun(id) {
+
+       var divelement = document.getElementById(id);
+	   
+       if(divelement.style.display == 'block')
+          divelement.style.display = 'none';
+		  
+		  
+		  
+       else 
+          divelement.style.display = 'block';		  
+		
+    }
+	
+		
+    
+	
+	//this function change button text1
+	 function change() 
+{		  
+        var elem = document.getElementById("myButton1");
+    if (elem.value=="read less") elem.value = "read more";
+    else elem.value = "read less";
+}
+   //this functin change button text2
+ function change2() 
+{		  
+        var elem = document.getElementById("myButton2");
+    if (elem.value=="read less") elem.value = "read more";
+    else elem.value = "read less";
+}
+ //this functin change button text3
+ function change3() 
+{		  
+        var elem = document.getElementById("myButton3");
+    if (elem.value=="read less") elem.value = "read more";
+    else elem.value = "read less";
+}
+
+
+
+
+	   </script>
+      <h1> Header</h1>
+	  <div class="container">
+	  <div class="para1">
+	  <h2>Article1</h2>
+	   <p>this is some text this is some text this is some text this is some text
+	   this is some text this is some text this is some text this is some text</p>
+	     <div id="newpara1">This is some more text This is some more text This is some more text 
+		 This is some more text This is some more text This is some more text This is some more text 
+		 This is some more text This is some more text This is some more text </div>
+		   <input type="button" onclick="toggle_div_fun('newpara1'); change();" value="read more" id="myButton1"></input> 
+	  </div>
+	   
+	  <div class="para2">
+	  <h2>Article2</h2>
+	     <p>this is some text this is some text this is some text this is some text
+	   this is some text this is some text this is some text this is some text</p>
+	     <div id="newpara2">This is some more text This is some more text This is some more text 
+		 This is some more text This is some more text This is some more text This is some more text 
+		 This is some more text This is some more text This is some more text </div>
+		   <input type="button" onclick="toggle_div_fun('newpara2'); change2();" value="read more" id="myButton2"></input> 
+	  </div>
+	  
+	  <div class="para3">
+	  <h2>Article3</h2>
+	     <p>this is some text this is some text this is some text this is some text
+	   this is some text this is some text this is some text this is some text</p>
+	     <div id="newpara3">This is some more text This is some more text This is some more text 
+		 This is some more text This is some more text This is some more text This is some more text 
+		 This is some more text This is some more text This is some more text </div>
+		   <input type="button" onclick="toggle_div_fun('newpara3'); change3();" value="read more" id="myButton3"></input> 
+	  </div>
+	  </div>
+  </body>
+
+
+</html>

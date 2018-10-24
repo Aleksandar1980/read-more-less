@@ -1,0 +1,42 @@
+@charset "utf-8";
+h1   {
+	 margin-left:302px;
+}	
+
+.para1 {
+      width:200px;
+      background-color:gray;
+        float:left;
+		margin-right:25px;
+		margin-left:25px;
+}
+#newpara1 {
+	 margin-top:-16px;
+	 width:200px;
+      background-color:gray;
+	  display:none;
+}
+.para2 {
+      width:200px;
+      background-color:gray;
+       float:left;
+	   margin-right:25px;
+}
+#newpara2 {
+	 margin-top:-16px;
+	 width:200px;
+      background-color:gray;
+	  display:none;
+}
+.para3 {
+      width:200px;
+      background-color:gray;
+        float:left;
+}
+#newpara3 {
+	 margin-top:-16px;
+	 width:200px;
+      background-color:gray;
+	  display:none;
+}
+
